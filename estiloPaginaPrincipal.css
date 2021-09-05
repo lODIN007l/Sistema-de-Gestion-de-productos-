@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenidoPrincipal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Pescaderia/Imagenes//background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+.barranavegacion{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.logoEmpresa{
+    width: 90px;
+    cursor: pointer;
+    height: 90px;
+    border-radius: 30px;
+    margin-right: 100px;
+
+}
+.botoncarritodecompra{
+    width: 50px;
+    cursor:pointer;
+    height: 50%;
+    margin-left: 20px;
+    visibility: hidden;
+}
+.botonlogin{
+    width: 160px;
+    cursor:pointer;
+    text-align: center;
+    background:linear-gradient(45deg,#87adfe,#ff77cd) ;
+    border-radius: 10px;
+    padding: 5px 18px ;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: beige;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    font-size: 21px;
+    margin-right: 20px;
+   
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px ;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+
+}
+.contenido h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.contenido p{
+    font-size: 20px;
+    color: #232d60;
+
+}
+.contenido{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.contenido .botonPrincipal{
+    display: inline-block;
+    background:linear-gradient(45deg,#87adfe,#ff77cd) ;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px ;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: beige;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+.imagencentral{
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.imagenAncla{
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+
+}

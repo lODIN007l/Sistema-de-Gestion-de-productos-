@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+}
+#aside-left{
+    width: 20%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+#aside-rigth{
+    width: 80%;
+    height: 100vh;
+}
+
+#image{
+    padding: 20px 0 30px 0;
+}
+
+#nav a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#nav a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.content{
+    border: 1px solid;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    height: 85vh;
+    display: block;
+}
+
+iframe{
+    width: 100%;
+    display: none;
+    height: 100%;
+}

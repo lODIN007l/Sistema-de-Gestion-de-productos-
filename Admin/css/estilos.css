@@ -1,0 +1,42 @@
+
+* {
+border: 0;
+border: 0;
+padding: 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+box-sizing: border-box;
+}
+
+body{
+
+font-size: 16px;
+color: #000;
+background: #fff;
+text-align: center;
+font-family: sans-serif;
+
+}
+header{
+box-shadow: 0 5px 15px #000; /*desplzmiento vertica valor + o - eb desplazamiento
+ 0 porque no quiero que se desplae, el tercer vlor es la difuminacion*/
+color: black;
+width: 100%;
+padding: 1em;/*el alto*/
+}
+.btns-inicio{
+	text-align: right;
+	padding-top: 15px;
+}
+.msnExito, .msnError{
+font-weight: bold;
+color: green;
+}
+.msnError{
+color: red;
+}
+.admin{
+
+	margin-top: 40px;
+}
